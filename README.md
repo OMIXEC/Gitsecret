@@ -29,13 +29,13 @@ See `requirements.txt`
 Install Dependencies:
 pip install -r requirements.txt
 
-**Usage:**
+Usage:
 python gitsecret.py -u <username>       # Scan a GitHub user
 python gitsecret.py -f <filepath>       # Scan a local file
 python gitsecret.py -l <url>            # Scan a URL
 python gitsecret.py -s                  # Perform a self-scan (your repositories)
 
-*Configuration:*
+Configuration:
 Sensitive File Patterns (Advanced)
 You can customize the regular expression patterns used to detect sensitive information by modifying the patterns list in the gitsecret.py script. The patterns are defined as raw strings (e.g., r"\.env$").
 
@@ -53,5 +53,5 @@ GITHUB_TOKEN=your_actual_github_pat
 Use code with caution.
 Make sure to add .env to your .gitignore file to prevent it from being accidentally committed to your repository.
 
-*Disclaimer*
+Disclaimer
 This tool is intended for security testing and educational purposes only. It should not be used without explicit permission from the target. Unauthorized access or scanning of computer systems or networks is illegal. The developers of this tool are not responsible for any misuse or illegal activities performed using this script.
